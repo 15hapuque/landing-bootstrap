@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comércio Fashion</title>
-   
+    
     <link href="https://jsdelivr.net" rel="stylesheet">
+    
+  
+    <style>
+        .btn-hero-custom {
+            background-color: #ff5722 !important; 
+            border-color: #ff5722 !important;
+            color: #ffffff !important;
+        }
+        .btn-hero-custom:hover {
+            background-color: #e64a19 !important;
+            border-color: #e64a19 !important;
+        }
+    </style>
 </head>
 <body>
 
+   
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Comércio Fashion</a>
@@ -25,6 +39,7 @@
         </div>
     </nav>
 
+   
     <div class="container mt-3">
         <div class="alert alert-info alert-dismissible fade show text-center fw-bold" role="alert">
             🚀 Frete grátis para todo o Brasil em compras acima de R$ 150!
@@ -32,53 +47,56 @@
         </div>
     </div>
 
+    
     <header class="bg-light py-5 text-center">
         <div class="container py-4">
             <h1 class="display-4 fw-bold text-dark">Renove seu Estilo Hoje</h1>
             <p class="lead text-muted mb-4">Descubra as principais tendências da temporada com preços que cabem no seu bolso.</p>
-            <a href="#" class="btn btn-primary btn-lg px-4">Ver Catálogo</a>
+           
+            <a href="#" class="btn btn-hero-custom btn-lg px-4">Ver Catálogo</a>
         </div>
     </header>
-    <section class="container my-5">
-        <div class="row g-4">
-            
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://unsplash.com" class="card-img-top" alt="Coleção de Verão">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Coleção de Verão</h5>
-                        <p class="card-text text-muted flex-grow-1">Roupas leves e confortáveis para aproveitar os dias de sol com muito estilo.</p>
-                        
-                    
-                        <a href="#" class="btn btn-primary mt-3">Ver mais</a>
+
+   
+    <section class="bg-body-secondary text-body py-5" data-bs-theme="dark">
+        <div class="container">
+            <h2 class="text-center mb-4">Destaques da Semana</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://unsplash.com" class="card-img-top" alt="Coleção de Verão">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Coleção de Verão</h5>
+                            <p class="card-text text-muted flex-grow-1">Roupas leves e confortáveis para aproveitar os dias de sol com muito estilo.</p>
+                            <a href="#" class="btn btn-primary mt-3">Ver mais</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-           
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://unsplash.com" class="card-img-top" alt="Linha Casual">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Linha Casual</h5>
-                        <p class="card-text text-muted flex-grow-1">Peças versáteis perfeitas para o seu dia a dia, combinando conforto e elegância.</p>
-                        <a href="#" class="btn btn-primary mt-3">Ver mais</a>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://unsplash.com" class="card-img-top" alt="Linha Casual">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Linha Casual</h5>
+                            <p class="card-text text-muted flex-grow-1">Peças versáteis perfeitas para o seu dia a dia, combinando conforto e elegância.</p>
+                            <a href="#" class="btn btn-primary mt-3">Ver mais</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
-                    <img src="https://unsplash.com" class="card-img-top" alt="Acessórios">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Acessórios</h5>
-                        <p class="card-text text-muted flex-grow-1">Bolsas, óculos e carteiras selecionadas para dar o toque final ideal ao seu look.</p>
-                        <a href="#" class="btn btn-primary mt-3">Ver mais</a>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://unsplash.com" class="card-img-top" alt="Acessórios">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Acessórios</h5>
+                            <p class="card-text text-muted flex-grow-1">Bolsas, óculos e carteiras selecionadas para dar o toque final ideal ao seu look.</p>
+                            <a href="#" class="btn btn-primary mt-3">Ver mais</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </section>
 
