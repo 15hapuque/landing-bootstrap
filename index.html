@@ -1,14 +1,15 @@
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Comércio Fashion</title>
 
-    <link 
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
         rel="stylesheet"
     >
 
@@ -16,12 +17,25 @@
         .btn-hero-custom {
             background-color: #6e265f !important;
             border-color: #50193f !important;
-            color: #ffffff !important;
+            color: white !important;
         }
 
         .btn-hero-custom:hover {
             background-color: #4e1739 !important;
             border-color: #4d173f !important;
+            color: white !important;
+        }
+
+        .btn-roxo {
+            background-color: #6e265f;
+            border-color: #50193f;
+            color: white;
+        }
+
+        .btn-roxo:hover {
+            background-color: #4e1739;
+            border-color: #4d173f;
+            color: white;
         }
 
         .card-img-top {
@@ -29,21 +43,23 @@
             object-fit: cover;
         }
     </style>
+
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
         <div class="container">
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand fw-bold" href="#">
                 Comércio Fashion
             </a>
 
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
                 aria-controls="navbarNav"
                 aria-expanded="false"
@@ -57,19 +73,19 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#produtos">
                             Produtos
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#sobre">
                             Sobre Nós
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#contato">
                             Contato
                         </a>
                     </li>
@@ -77,22 +93,23 @@
                 </ul>
 
             </div>
-        </div>
-    </nav>
 
+        </div>
+
+    </nav>
 
     <div class="container mt-3">
 
-        <div 
-            class="alert alert-info alert-dismissible fade show text-center fw-bold" 
+        <div
+            class="alert alert-info alert-dismissible fade show text-center fw-bold"
             role="alert"
         >
             🚀 Frete grátis para todo o Brasil em compras acima de R$ 150!
 
-            <button 
-                type="button" 
-                class="btn-close" 
-                data-bs-dismiss="alert" 
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
                 aria-label="Fechar"
             ></button>
 
@@ -100,10 +117,9 @@
 
     </div>
 
-
     <header class="bg-light py-5 text-center">
 
-        <div class="container py-4">
+        <div class="container py-5">
 
             <h1 class="display-4 fw-bold text-dark">
                 Renove seu Estilo Hoje
@@ -114,8 +130,8 @@
                 com preços que cabem no seu bolso.
             </p>
 
-            <a 
-                href="#" 
+            <a
+                href="#produtos"
                 class="btn btn-hero-custom btn-lg px-4"
             >
                 Ver Catálogo
@@ -125,8 +141,10 @@
 
     </header>
 
-
-    <section class="bg-body-secondary py-5">
+    <section
+        id="produtos"
+        class="bg-body-secondary py-5"
+    >
 
         <div class="container">
 
@@ -136,12 +154,11 @@
 
             <div class="row g-4">
 
-
                 <div class="col-md-4">
 
                     <div class="card h-100 shadow-sm">
 
-                        <img 
+                        <img
                             src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80"
                             class="card-img-top"
                             alt="Coleção de Verão"
@@ -158,9 +175,9 @@
                                 os dias de sol com muito estilo.
                             </p>
 
-                            <a 
-                                href="#" 
-                                class="btn btn-primary mt-3"
+                            <a
+                                href="#"
+                                class="btn btn-roxo mt-3"
                             >
                                 Ver mais
                             </a>
@@ -171,12 +188,11 @@
 
                 </div>
 
-
                 <div class="col-md-4">
 
                     <div class="card h-100 shadow-sm">
 
-                        <img 
+                        <img
                             src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
                             class="card-img-top"
                             alt="Linha Casual"
@@ -193,9 +209,9 @@
                                 combinando conforto e elegância.
                             </p>
 
-                            <a 
-                                href="#" 
-                                class="btn btn-primary mt-3"
+                            <a
+                                href="#"
+                                class="btn btn-roxo mt-3"
                             >
                                 Ver mais
                             </a>
@@ -206,12 +222,11 @@
 
                 </div>
 
-
                 <div class="col-md-4">
 
                     <div class="card h-100 shadow-sm">
 
-                        <img 
+                        <img
                             src="https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?auto=format&fit=crop&w=800&q=80"
                             class="card-img-top"
                             alt="Acessórios"
@@ -228,9 +243,9 @@
                                 para dar o toque final ideal ao seu look.
                             </p>
 
-                            <a 
-                                href="#" 
-                                class="btn btn-primary mt-3"
+                            <a
+                                href="#"
+                                class="btn btn-roxo mt-3"
                             >
                                 Ver mais
                             </a>
@@ -247,11 +262,59 @@
 
     </section>
 
+    <section
+        id="sobre"
+        data-bs-theme="dark"
+        class="bg-body text-body py-5"
+    >
 
-    <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-    </script>
+        <div class="container text-center">
+
+            <h2 class="mb-3">
+                Sobre o Comércio Fashion
+            </h2>
+
+            <p class="lead">
+                Somos uma loja dedicada a trazer as principais
+                tendências da moda com qualidade, conforto e
+                preços acessíveis.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section
+        id="contato"
+        class="py-5 bg-light text-center"
+    >
+
+        <div class="container">
+
+            <h2>
+                Entre em Contato
+            </h2>
+
+            <p class="text-muted">
+                Ficou com alguma dúvida? Fale conosco!
+            </p>
+
+            <a
+                href="#"
+                class="btn btn-roxo"
+            >
+                Fale Conosco
+            </a>
+
+        </div>
+
+    </section>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
 
 </body>
+
 </html>
 ```
